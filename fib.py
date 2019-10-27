@@ -1,7 +1,7 @@
-def gaston2(n)
+def gaston12(n)
     a,b=0,1
     while a<n:
         print(a, end='')
         a,b=b,a+b
     print()
-gaston2(1000)
+gaston12(1000)
